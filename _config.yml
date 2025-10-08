@@ -230,8 +230,8 @@ pagination:
   debug: false
   collection: 'Tools'
   Tools: 
- output: true  # páginas individuales para cada post.
- permalink: /:collection/:title/ # Define la estructura de URL: /writeups/titulo-del-post/
+  output: true  
+  permalink: /:collection/:title/ 
   per_page: 10
   permalink: '/page/:num/'
   title: ':title - page :num'
